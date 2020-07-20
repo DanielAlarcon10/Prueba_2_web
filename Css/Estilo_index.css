@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+.menu{
+    background-color: black;
+}         
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+.menu ul li a{
+    color: white;
+    display: block;
+    padding: 10px 80px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: red;
+}
+body{
+    background-image: url(../Fondo/F3.jpg);
+}
